@@ -397,8 +397,8 @@ head(gapminder)
 
 # Add new column if life expectancy is below world average (70.5 years)
 below_average <- gapminder$lifeExp < 70.5 
-cbind(gapbinder, below_average) 
-head(cbind(gapbinder, below_average))
+cbind(gapminder, below_average) 
+head(cbind(gapminder, below_average))
 # what happens if the new column has less entries than  
 # observations in the data frame?
 below_average <- c(TRUE, TRUE, TRUE, TRUE, TRUE)
